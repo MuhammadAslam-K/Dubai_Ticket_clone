@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color:RGB(68, 68, 68);
+
+}
+.header{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.logos{
+    width: 25%;
+    height:65px;
+    display: flex;
+}
+.logos img{
+    margin-top: 20px;
+    width:50%;
+    height:45px;
+}
+.logo_text{
+    padding-left: 15px;
+    border-left: 1px solid;
+    width: 50%;
+}
+.logo_text p{
+    position: relative;
+    top: 25px;
+    margin-left: 0;
+}
+.logo_text h1{
+    color: rgb(105,20,239);
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    top: 20px; 
+}
+.menus{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:80px;
+}
+.menus span{
+    margin-top: 40px;
+}
+.text_video{
+    position: relative;
+    top: 30px;
+    width: 80%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 50%;
+    height: 300px;
+    font-family: sans-serif;
+    /* background-color: blue; */
+}
+.text h1{
+    font-size: 36px;
+    font-weight: 400;
+    line-height:44px;
+    padding-top:89px;
+    text-align: center;
+}
+.text h3,p{
+    font-size: 15px;
+    margin-left: 40px;
+    line-height: 25px;
+}
+.video{
+    width: 50%;
+    height: 50px;
+}
+.video video{
+    width: 100%;
+    border-radius: 17px;
+    height: fit-content;
+}
+.nav2{
+    position: relative;
+    top: 100px;
+    width:80%;
+    height:100px;
+}
+.nav2_h3_text{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+}
+.nav2_h3_text p{
+    margin-left: 0px;
+}
+.img_sec1{
+    border-radius:10px;
+    border: 1px solid;
+    position: relative;
+    top: 120px;
+    display: grid;
+    grid-template-columns: 0.8fr 1.8fr 1fr;
+    column-gap: 10px;
+    width: 80%;
+}
+.img_sec1_img img{
+    padding: 20px 10px;
+    border-radius: 35px;
+}
+
+.img_sec1_text h2{
+    position: absolute;
+    top: 30px;
+}
+.img_sec1_text h4{
+    position: relative;
+    top: 70px;
+    padding: 15px;
+    
+}
+.img_sec1_h4{
+    display: flex;;
+}
+.img_sec1_text p{
+    position: relative;
+    top: 100px;
+}
+.img_sec1_booking{
+    height: 450px;
+    position: relative;
+    top: 30px;
+    border-left:1.5px dotted;
+    line-height: 30px;
+    padding-left: 50px
+}
+.img_sec1_booking button{
+    width: 80%;
+    height: 50px;
+    background-color:rgb(128,0,255);
+    border-style: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.img_sec1_booking p{
+    margin-left: 0;
+}
+
+
