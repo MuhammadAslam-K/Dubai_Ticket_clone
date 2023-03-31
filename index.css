@@ -10,7 +10,7 @@
     align-items: center;
     font-family: sans-serif;
     color:RGB(68, 68, 68);
-
+    row-gap: 30px;
 }
 .header{
     width: 80%;
@@ -108,17 +108,19 @@
 }
 .img_sec1{
     border-radius:10px;
-    border: 1px solid;
+    border: 1.5px solid rgb(214, 205, 205);
     position: relative;
     top: 120px;
     display: grid;
-    grid-template-columns: 0.8fr 1.8fr 1fr;
+    grid-template-columns: 0.3fr 1.8fr 1fr;
+    grid-template-rows: 400px;
     column-gap: 10px;
     width: 80%;
 }
 .img_sec1_img img{
     padding: 20px 10px;
     border-radius: 35px;
+    height: 360px;
 }
 
 .img_sec1_text h2{
@@ -129,7 +131,6 @@
     position: relative;
     top: 70px;
     padding: 15px;
-    
 }
 .img_sec1_h4{
     display: flex;;
@@ -139,7 +140,7 @@
     top: 100px;
 }
 .img_sec1_booking{
-    height: 450px;
+    height: 300px;
     position: relative;
     top: 30px;
     border-left:1.5px dotted;
@@ -147,7 +148,8 @@
     padding-left: 50px
 }
 .img_sec1_booking button{
-    width: 80%;
+    width: 90%;
+    margin: 18px 0;
     height: 50px;
     background-color:rgb(128,0,255);
     border-style: none;
@@ -159,5 +161,323 @@
 .img_sec1_booking p{
     margin-left: 0;
 }
+.insta_videos{
+    background-color:rgb(248,246,255) ;
+    width: 100%;
+    height: 440px;
+    position: relative;
+    top: 150px;
+}
+.insta_video_text{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    position: relative;
+    left: 160px;
+    top: 70px;
+}
+.insta_video_layout{
+    width: 80%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 20px;
+    position: relative;
+    left: 140px;
+    top: 20px;
+    justify-content: space-evenly;
+}
+.insta_video_layout video{
+    border-radius: 45px;
+    width:190px;
+    height: 250px;
+    
+}
+.para{
+    width: 80%;
+    height: 400px;
+    position: relative;
+    top: 200px;
+}
+.para_child{
+    width: 100%;
+    height: 300px;;
+}
+.para_child h1{
+    position: relative;
+    top: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.para_child :nth-child(2){
+top: 55px;
+}
+.para_child :nth-child(3){
+    top: 70px;
+}
+.para_child :nth-child(4){
+    top: 90px;
+}
+.para_child :nth-child(5){
+    top: 110px;
+}
+.para_child h4{
+    position:relative;
+    top: 50px;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}.youtube_video{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 250px;
+    background-color: rgb(248,248,248);
+}
+.youtube_video_child{
+    width: 80%;
+    height: 700px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.pic_cards{
+    width: 80%;
+    height: 900px;
+    position: relative;
+    top: 300px;
+}
+.pic_cards_text{
+    width: 100%;
+    height: 50px;
+}
+.pic_cards_card{
+    width: 100%;
+    height: 540px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+.pic_cards_card_child{
+    margin-top: 20px;
+    height: 450px;
+    box-shadow:  5px 5px 24px #676767,
+             -5px -5px 24px #ffffff;
+    border-radius: 15px;
+}
+.pic_cards_card_child img{
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.pic_cards_card_child h2{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.pic_cards_card_child h4{
+    display: inline;
+    font-size: 15px;
+    font-weight: 300;
+}
+.pic_text{
+    padding-left: 20px;
+}
+.pic_cards_para{
+    width: 90%;
+    height: 300px;
+    position: relative;
+    left: 50px; 
+}
+.pic_cards_para h2{
+    padding: 20px 40px;
+}
+.ticket_campare{
+    width: 100%;
+    height: 910px;
+    background-color: rgb(248,248,248);
+    position: relative;
+    top: 300px;
+}
+.ticket_campare_text1{
+    width:80%;
+    height: 50px;
+    position: absolute;
+    left: 150px; 
+}
+.ticket_campare_pic{
+    width: 80%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    column-gap: 20px;
+    position: relative;
+    top: 70px;
+    left: 150px;
+}
+.ticket_campare_pic img{
+    width: 100%;
+    border-radius: 10px;
+}
+.ticket_campare_text2{
+    width:80%;
+    position: relative;
+    top: 90px;
+    left: 150px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.ticket_campare_sec1{
+    width: 80%;
+    height: 430px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    column-gap: 20px;
+}
+.ticket_campare_table{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: relative;
+    left: 10px;
+    display: grid;
+    /* grid-template-rows: repeat(6,1fr); */
+}
+.ticket_campare_table h4{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.ticket_campare_table h2{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25px;
+}
+button{
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+    background-color: rgb(128,0,255);
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 12px;
+}
+.ticket_choosing{
+    width: 80%;
+    height: 400px;
+    position: relative;
+    top: 320px;
+}
+.ticket_choosing h1{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.ticket_choosing h2{
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.ticket_choosing h4{
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.floors{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 550px;
+}
+.floors_head{
+    width: 80%;
+    height: 50px;
+    position: relative;
+    left: 160px;
+    top: 20px;
+}
+.floors_child{
+    width: 80%;
+    height: 500px;
+    position: relative;
+    left: 160px;
+    top: 55px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+}
+.floor_card img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.floor_card{
+    border-radius: 10px;
+    box-shadow:  5px 5px 24px #676767,
+    -5px -5px 24px #ffffff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.restaurants{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top:580px;
+}
+.restaurants_head{
+    width: 80%;
+    height: 110px;
+    position:absolute;
+    left: 160px;
+}
+.restaurants_child{
+    width: 80%;
+    height: 550px;
+    position:absolute;
+    left: 160px;
+    top: 130px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
 
-
+}
+.restaurants_child img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.restaurants_child h1{
+    margin: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.restaurants_child h4{
+    margin: 10px 20px;
+    font-size:15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.restaurants_child_text{
+    border-radius: 10px;
+    box-shadow:  5px 5px 24px #676767,
+    -5px -5px 24px #ffffff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.restaurants_footer{
+    width: 80%;
+    position: relative;
+    top: 720px;
+    left: 150px;
+    font-size:23px;
+    font-weight: 300;
+}
