@@ -20,13 +20,11 @@
 }
 .logos{
     width: 25%;
-    height:65px;
     display: flex;
 }
 .logos img{
     margin-top: 20px;
     width:50%;
-    height:45px;
 }
 .logo_text{
     padding-left: 15px;
@@ -50,7 +48,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height:80px;
 }
 .menus span{
     margin-top: 40px;
@@ -59,16 +56,12 @@
     position: relative;
     top: 30px;
     width: 80%;
-    height: auto;
-    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
 }
 .text{
     width: 50%;
-    height: 300px;
     font-family: sans-serif;
-    /* background-color: blue; */
 }
 .text h1{
     font-size: 36px;
@@ -82,20 +75,14 @@
     margin-left: 40px;
     line-height: 25px;
 }
-.video{
-    width: 50%;
-    height: 50px;
-}
 .video video{
     width: 100%;
     border-radius: 17px;
-    height: fit-content;
 }
 .nav2{
     position: relative;
     top: 100px;
     width:80%;
-    height:100px;
 }
 .nav2_h3_text{
     display: flex;
@@ -122,7 +109,6 @@
     border-radius: 35px;
     height: 360px;
 }
-
 .img_sec1_text h2{
     position: absolute;
     top: 30px;
@@ -164,7 +150,6 @@
 .insta_videos{
     background-color:rgb(248,246,255) ;
     width: 100%;
-    height: 440px;
     position: relative;
     top: 150px;
 }
@@ -195,13 +180,8 @@
 }
 .para{
     width: 80%;
-    height: 400px;
     position: relative;
     top: 200px;
-}
-.para_child{
-    width: 100%;
-    height: 300px;;
 }
 .para_child h1{
     position: relative;
@@ -236,14 +216,12 @@ top: 55px;
 }
 .youtube_video_child{
     width: 80%;
-    height: 700px;
     position: absolute;
     top: 60px;
     left: 100px;
 }
 .pic_cards{
     width: 80%;
-    height: 900px;
     position: relative;
     top: 300px;
 }
@@ -305,7 +283,6 @@ top: 55px;
 }
 .ticket_campare_text1{
     width:80%;
-    height: 50px;
     position: absolute;
     left: 150px; 
 }
@@ -333,7 +310,6 @@ top: 55px;
 }
 .ticket_campare_sec1{
     width: 80%;
-    height: 430px;
     position: relative;
     left: 150px;
     top: 100px;
@@ -349,7 +325,6 @@ top: 55px;
     position: relative;
     left: 10px;
     display: grid;
-    /* grid-template-rows: repeat(6,1fr); */
 }
 .ticket_campare_table h4{
     font-size: 14px;
@@ -373,7 +348,6 @@ button{
 }
 .ticket_choosing{
     width: 80%;
-    height: 400px;
     position: relative;
     top: 320px;
 }
@@ -400,14 +374,12 @@ button{
 }
 .floors_head{
     width: 80%;
-    height: 50px;
     position: relative;
     left: 160px;
     top: 20px;
 }
 .floors_child{
     width: 80%;
-    height: 500px;
     position: relative;
     left: 160px;
     top: 55px;
@@ -435,13 +407,11 @@ button{
 }
 .restaurants_head{
     width: 80%;
-    height: 110px;
     position:absolute;
     left: 160px;
 }
 .restaurants_child{
     width: 80%;
-    height: 550px;
     position:absolute;
     left: 160px;
     top: 130px;
@@ -529,7 +499,6 @@ button{
 }
 .beyound{
     width: 80%;
-    height: 600px;
     position: relative;
     top: 800px;
 }
@@ -540,7 +509,6 @@ button{
 }
 .beyound_card{
     width: 100%;
-    height: 520px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 30px;
@@ -568,7 +536,6 @@ button{
     height: 300px;
     position: relative;
     top: 850px;
-
 }
 .answer{
     width: 100%;
@@ -588,7 +555,7 @@ button{
 }
 .quick_link{
     width: 80%;
-    height: 180px;
+    height: 200px;
     position: relative;
     left: 150px;
     top: 80px;
@@ -617,7 +584,6 @@ button{
 }
 .footer2{
     width: 100%;
-    height: 400px;
     background-color: black;
     position: relative;
     top: 1870px;
@@ -632,11 +598,9 @@ button{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     column-gap: 80px;
-    /* justify-content: space-between; */
 }
 .footer2_child1_text1{
     width: 100%;
-    height: 90px;
     display: flex;
     margin-left: 1px;
 }
@@ -680,7 +644,4 @@ button{
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
-}
-.footer2_social_media2{
-    height: 20px;
 }
